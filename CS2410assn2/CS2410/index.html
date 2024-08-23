@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widgets R' Us</title>
+</head>
+<body>
+    <!-- MadLibs -->
+    <div id="madLibs">
+        <h2>MadLibs Generator</h2>
+        <input type="text" id="word1" placeholder="Enter an aminal">
+        <input type="text" id="word2" placeholder="Enter a time period">
+        <input type="text" id="word3" placeholder="Enter a color">
+        <input type="text" id="word4" placeholder="Enter a mode of transportation">
+        <input type="text" id="word5" placeholder="Enter an emotion">
+        <p id="mLResult"></p>
+        <button onclick="generateMadLib()">Generate MadLib</button>
+
+    </div>
+
+    <!-- Mortgage -->
+    <div id="mortgageCalculator">
+        <h2>Mortgage Calculator</h2>
+        <input type="number" id="loanAmount" placeholder="Loan Amount - ex. 10000">
+        <input type="number" id="interestRate" placeholder="Yearly Interest Rate - ex 3.5">
+        <input type="number" id="loanTerm" placeholder="Loan Term (in years) - ex. 5">
+        <p id="mortgageResult"></p>
+    </div>
+
+    <!-- ml mc -->
+    <script src="madLibs.js"></script>
+    <script src="mortgageCalculator.js"></script>
+</body>
+</html>
